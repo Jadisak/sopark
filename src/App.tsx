@@ -354,11 +354,11 @@ function App() {
             </section>
             
             {/* Contact Section */}
-            <section id="contact" className="bg-stone-700 pt-16 pb-24 space-grotesk-lite">
+            <section id="contact" className="bg-stone-700 pt-16 pb-24">
               <div className="max-w-4xl mx-auto px-4 sm:px-0">
                 <h2 className="text-4xl font-thin mb-8 text-center">Get In Touch</h2>
                 <div className="flex flex-col md:flex-row justify-between items-center gap-8">
-                  <div className="w-full md:w-1/2">
+                  <div className="w-full mx-8 md:w-1/2">
                     <form className="space-y-4">
                       <div>
                         <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-1">Name</label>
@@ -395,7 +395,7 @@ function App() {
                       </button>
                     </form>
                   </div>
-                  <div className="w-full md:w-1/2 flex flex-col items-start space-y-0 border-y border-gray-500">
+                  <div className="w-full mx-8 md:w-1/2 flex flex-col items-start space-y-0 border-y border-gray-500">
                     <div className='pb-6'>
                       <h3 className="text-xl font-semibold py-3 text-yellow-400">Contact Information</h3>
                       <p className="text-gray-300 text-lg">Feel free to reach out for collaborations or just a friendly hello!</p>
