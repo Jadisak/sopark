@@ -1,7 +1,5 @@
 import React, { useEffect, useRef } from 'react';
 
-import { Image } from "next/image" ;
-
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Menu, X, Linkedin, Mail, Phone } from 'lucide-react';
@@ -242,7 +240,7 @@ function App() {
                   <span 
                     ref={filmRef} 
                     id="film" 
-                    className="drop-shadow-lg leading-[6rem] space-grotesk-20x tracking-tighter"
+                    className="drop-shadow-lg leading-[6rem] space-grotesk-20x tracking-tighter animate-pulse"
                   >
                     film
                   </span>
@@ -269,7 +267,7 @@ function App() {
             {/* Work */}
             <div className="bg-white/0 w-full h-12 spacer"></div>
             <p ref={addToWorkRefs} className='font-thin text-4xl text-white pt-12 text-center w-full'>Work</p>
-            <section className="h-fit max-w-5xl mx-auto md:grid sm:grid-cols-4 pb-24 md:px-0 px-12 md:gap-4 gap-y-8 z-10">
+            <section className="h-fit max-w-5xl mx-auto md:grid sm:grid-cols-4 pb-24 md:px-4 px-12 md:gap-4 gap-y-8 z-10">
               <a href="https://youtu.be/Q2VFl91oa0Q?si=nppflZkEbS8pKTaK" target="_blank">
               <div ref={addToWorkRefs} className="overflow-hidden bg-cover rounded-md aspect-video my-6 bg-[url('img/ElexII.webp')]">
               </div></a>
@@ -321,7 +319,7 @@ function App() {
             </section>
             
             {/* About */}
-            <section id="about" className="z-20 grid grid-cols-1 md:grid-cols-3 grid-rows-none gap-4 max-w-5xl mx-auto pb-20 px-4 sm:px-0">
+            <section id="about" className="z-20 grid grid-cols-1 md:grid-cols-3 grid-rows-none gap-4 max-w-5xl mx-auto pb-20 px-8">
               <h1 className="col-start-2 col-end-4 font-thin text-4xl py-6">Professional Experience</h1>
               <div ref={addToAboutRefs} className="col-start-2 col-end-4 space-y-4">
                 <h3 className="text-2xl font-bold">The Monk Studio</h3>
@@ -344,7 +342,6 @@ function App() {
                 <h4 className="text-yellow-300">Feb 2014 - Jun 2014 | VFX Artist</h4>
                 <p className="text-sm">Composite & Lighting: Produced high-quality composite and lighting shots for animated feature films. FX Water Simulation: Created realistic water simulations for animated feature films.</p>
               </div>
-              
               <div ref={addToAboutRefs} className="col-start-2 col-end-4 space-y-4">
                 <h3 className="text-2xl font-bold">Imagimax Studio</h3>
                 <div className="">
@@ -427,7 +424,7 @@ function App() {
         </div>
 
         <footer className="fixed w-full bottom-0 z-50 bg-gray-950">
-          <div className="max-w-5xl mx-auto h-fit flex items-center justify-center md:justify-between text-white py-3">
+          <div className="max-w-5xl mx-auto h-fit flex items-center justify-center md:justify-between text-white px-4 py-3">
             <div className="uppercase text-white font-bold text-xl md:block hidden">
               Sopark <span className="font-thin text-yellow-400">vfx</span>
             </div>
