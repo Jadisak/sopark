@@ -355,7 +355,7 @@ function App() {
             
             {/* Contact Section */}
             <section id="contact" className="bg-stone-700 pt-16 pb-20">
-              <div className="max-w-4xl mx-auto px-6">
+              <div className="max-w-4xl mx-auto px-2">
                 <h2 className="text-4xl font-thin mb-8 text-center">Get In Touch</h2>
                 <div className="flex flex-col md:flex-row justify-between items-start mx-6 gap-y-8">
                   <div className="w-full md:mr-3">
